@@ -1,10 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F71A71B6-24C0-479B-B464-8811D8A0301F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Purchase", "Purchase", "{538944BA-831B-4682-A17B-AAC2285DBD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purchase.API", "Services\Purchase\Purchase.API\Purchase.API.csproj", "{78D874D1-1217-4468-9BDE-D0705DD844CB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78D874D1-1217-4468-9BDE-D0705DD844CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D874D1-1217-4468-9BDE-D0705DD844CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D874D1-1217-4468-9BDE-D0705DD844CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D874D1-1217-4468-9BDE-D0705DD844CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{538944BA-831B-4682-A17B-AAC2285DBD8F} = {F71A71B6-24C0-479B-B464-8811D8A0301F}
+		{78D874D1-1217-4468-9BDE-D0705DD844CB} = {538944BA-831B-4682-A17B-AAC2285DBD8F}
 	EndGlobalSection
 EndGlobal
