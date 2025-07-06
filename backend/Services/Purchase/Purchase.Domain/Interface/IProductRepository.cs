@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Purchase.Domain.Entities;
+﻿using Purchase.Domain.Entities;
 
 namespace Purchase.Domain.Interface
 {

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FluentValidation;
+﻿using FluentValidation;
 using Purchase.Application.DTOs;
+using Purchase.Application.Features.Commands;
 
 namespace Purchase.Application.Validators
 {
-    public class AddNewProdcutValidator:AbstractValidator<ProductAddDto>
+    public class AddNewProdcutValidator:AbstractValidator<AddNewProductCommand>
     {
         public AddNewProdcutValidator()
         {

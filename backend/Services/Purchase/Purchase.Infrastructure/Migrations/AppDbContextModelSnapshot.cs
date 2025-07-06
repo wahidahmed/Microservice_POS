@@ -48,7 +48,7 @@ namespace Purchase.Infrastructure.Migrations
 
                     b.HasIndex("UnitId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Purchase.Domain.Entities.Unit", b =>
@@ -64,7 +64,7 @@ namespace Purchase.Infrastructure.Migrations
 
                     b.HasKey("UnitId");
 
-                    b.ToTable("Units");
+                    b.ToTable("Units", (string)null);
                 });
 
             modelBuilder.Entity("Purchase.Domain.Entities.Product", b =>
